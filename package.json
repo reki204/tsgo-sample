@@ -1,0 +1,19 @@
+{
+  "name": "tsgo-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "diagnostics": "bash generate-diagnostics.sh",
+    "build:tsc": "npx tsc -p . --extendedDiagnostics",
+    "build:tsgo": "npx tsgo -p . --extendedDiagnostics"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.23",
+    "@typescript/native-preview": "^7.0.0-dev.20250528.1",
+    "typescript": "^5.8.3"
+  }
+}
